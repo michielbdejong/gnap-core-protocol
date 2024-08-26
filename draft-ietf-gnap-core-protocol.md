@@ -169,7 +169,7 @@ passed directly to the software.
 This protocol allows a piece of software, the client instance, to request delegated
 authorization to resource servers and subject information. The delegated access to
 the resource server can be used by the client instance to access resources and APIs
-on behalf a resource owner, and delegated access to
+on behalf of a resource owner, and delegated access to
 subject information can in turn be used by the client instance to make authentication decisions.
 This delegation is facilitated by an authorization server usually on
 behalf of a resource owner. The end user operating the software can interact
