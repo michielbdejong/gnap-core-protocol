@@ -295,7 +295,7 @@ that deals with user attributes while generating access tokens at
 another system that deals with security rights. From the perspective of
 GNAP, all of these are pieces of the AS and together fulfill the
 role of the AS as defined by the protocol. These pieces may have their own internal
-communications mechanisms which are considered out of scope of GNAP.
+communication mechanisms which are considered out of scope of GNAP.
 
 
 ## Elements {#elements}
