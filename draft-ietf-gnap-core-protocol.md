@@ -2043,15 +2043,15 @@ The value of the `manage` field is an object with the following properties:
     REQUIRED.
 
 `access_token` (object):
-: A unique access token for continuing the request, called the "token management access token".
+: A unique access token for managing the token, called the "token management access token".
     The value of this property MUST be an object in the format specified
     in {{response-token-single}}. This access token MUST be bound to the
     client instance's key used in the request (or its most recent rotation) and MUST NOT be a bearer token. As a consequence,
     the `flags` array of this access token MUST NOT contain the string `bearer` and the
     `key` field MUST be omitted.
-    This access token MUST NOT have a `manage` field.
+    This access token MUST NOT itself have a `manage` field.
     This access token MUST NOT have the same value as the token it is managing.
-    The client instance MUST present the continuation access token in all requests to the continuation URI as described in {{use-access-token}}.
+    The client instance MUST present the continuation access token in all requests to the token management URI as described in {{token-management}}.
     REQUIRED.
 
 The values of the `flags` field defined by this specification are as follows:
