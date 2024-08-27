@@ -1935,6 +1935,8 @@ contains a JSON object with the following properties.
     The client instance MUST present the continuation access token in all requests to the continuation URI as described in {{use-access-token}}.
     REQUIRED.
 
+The following is a non-normative example.
+
 ~~~ json
 {
     "continue": {
