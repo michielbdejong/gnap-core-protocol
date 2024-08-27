@@ -1182,7 +1182,7 @@ channels by the client instance, as discussed in {{response-subject}}.
 
 ## Identifying the Client Instance {#request-client}
 
-When sending new grant request to the AS, the client instance MUST identify
+When sending a new grant request to the AS, the client instance MUST identify
 itself by including its client information in the `client` field of the request and by signing the
 request with its unique key as described in {{binding-keys}}. Note that once a
 grant has been created and is in the _pending_ or _accepted_ states, the AS can
